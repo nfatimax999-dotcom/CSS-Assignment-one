@@ -1,0 +1,220 @@
+
+
+
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.parent{
+    height: 100vh;
+    width: 100vw;
+    background-color: antiquewhite;
+    display: flex;
+}
+
+.sidebar{
+    height: 100%;
+    width: 20%;
+    background-color: rgb(97, 124, 75);
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    font-family: 16px;
+    padding-top: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+
+    
+}
+
+.main{
+    height: 100%;
+    width: 79%;
+    background-color: rgb(223, 223, 181);
+    display: inline-block;
+    overflow: auto;
+    box-sizing: border-box;
+    font-size: 16px;
+    
+    
+}
+
+.sidebar a{
+    color: rgb(210, 216, 206);
+}
+
+.sidebar a:hover{
+    color: rgb(80, 161, 47);
+}
+
+.sidebar img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 10px solid rgb(190, 206, 187);
+    
+}
+
+.main{
+    flex: 1;
+    padding-top: 300px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-left: 50p
+    color rgb(48, 139, 63);
+
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    padding: 50px;
+    padding-top: 300px;
+}
+
+
+.social-icons{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    vertical-align: top;
+}
+
+.social-icons a {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(1, 7, 3);
+    color: rgb(249, 250, 248);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    border-radius: 50%;
+    text-decoration: none;
+}
+
+.social-icons i {
+    font-size: 24px;
+
+}
+
+.social-icons a:hover{
+    background-color: rgb(88, 145, 105);
+    
+}
+
+.skills {
+    display: inline-block;
+   
+    gap: 100px;
+}
+
+.skill {
+    display: inline-block;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+}
+
+.skill i {
+    font-size: 40px;
+    gap: 40px;
+}
+
+.my-skills {
+     
+       display: flex;
+  flex-wrap: wrap;       
+  max-width: 500px;      
+  gap: 30px;             
+  align-items: center;
+
+
+}
+
+.my-skills a {
+     width: 50px;           
+  height: 50px;
+  object-fit: contain;   
+  display: inline-block
+  color rgb(88, 22, 22);
+
+}
+
+ .my-skills i {
+     font-size: 60px;
+     gap: 150px;
+ }
+
+
+.skill-1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+   
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+.skill-2  {
+      display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    
+  
+}
+
+.main {
+  font-family: "Original Surfer", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.main .heading-1 {
+    color: rgb(53, 23, 133);
+
+}
+
+.main .h3 {
+    color: rgb(103, 70, 192);
+
+}
+
+.main .experience {
+    color: rgb(62, 27, 160);
+
+}
+
+.main .education {
+    color: rgb(62, 27, 160);
+
+}
+
+.main .h2 {
+    color: rgb(62, 27, 160);
+}
+
+.main .h1 {
+    color: rgb(62, 27, 160);
+}
+
+.main .date {
+    padding-left: 800px;
+    padding-top: 150px;
+    color: rgb(35, 77, 63);
+}
+
+
